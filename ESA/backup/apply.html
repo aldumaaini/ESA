@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply </title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../Style/style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+
+<!-- Passport Renewal  -->
+<div id="services" class="container-fluid text-center " style="margin-top: 5%">
+    <div style="margin-bottom: 20px; margin-left: 40%">
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span > <img class="glyphicon glyphicon-lock small-logo" src="../icons/pasprt.png" style="width: 220px ; height: 220px"> </span>
+                <h4>Passport Renewal</h4>
+                <h6 style="color: white"> you can easily renew your expired passport  </h6>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;
+
+        }
+
+        /* Full-width input fields */
+        input[type=text], input[type=password],input[type=number] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        /* Add a background color when the inputs get focus */
+        input[type=text]:focus, input[type=password]:focus ,input[type=number]:focus{
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for all buttons */
+        button {
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        button:hover {
+            opacity:1;
+        }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            padding: 14px 20px;
+            background-color: #f44336;
+        }
+
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn, .signinbtn {
+            float: left;
+            width: 50%;
+        }
+
+        /* Add padding to container elements */
+        .container {
+            padding: 16px;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: #474e5d;
+            padding-top: 50px;
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* Style the horizontal ruler */
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        /* The Close Button (x) */
+        .close {
+            position: absolute;
+            right: 35px;
+            top: 15px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #f1f1f1;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #f44336;
+            cursor: pointer;
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Change styles for  button on extra small screens */
+        @media screen and (max-width: 300px) {
+            .cancelbtn, .signupbtn, .modal-content {
+                width: 100%;
+            }
+        }
+
+
+        .file-field.big .file-path-wrapper .modal-content {
+            height: 3.2rem; }
+        .file-field.big .file-path-wrapper .file-path {
+            height: 3rem; }
+
+    </style>
+
+
+    <!--<div id="id01" class="modal">-->
+    <!--    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>-->
+    <form class="modal-content " action="/action_page.php" style="background:gainsboro">
+        <div class="container">
+            <h1>Submission </h1>
+            <p>Upload all your files here according to PDF specifications   <b>Passport Renewal Requirements </b> <br> then track your application in the tracking page to keep updated   </p>
+
+
+
+
+
+            <div class="clearfix">
+
+
+
+                <form class="md-form">
+                    <div class="file-field big">
+                        <a class="btn-floating btn-lg amber darken-2 mt-0 float-left">
+                            <i class="fas fa-cloud-upload-alt" aria-hidden="true"></i>
+                            <input type="file" multiple>
+                        </a>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="comment">
+                        </div>
+                    </div>
+                </form>
+                <br> <br> <br>
+
+
+
+                <a href="Tracking.html"> <button type="button" class="btn btn-success">submit </button> </a>
+                <a href="../modules/pasprt.html"> <button type="button" class="btn btn-primary">Back </button> </a>
+
+            </div>
+        </div>
+    </form>
+
+
